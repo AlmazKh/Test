@@ -13,4 +13,13 @@ public class NavigationHelper extends HelperBase{
         clickElement(findElement(By.linkText("Your repositories")));
         clickElement(findElement(By.linkText(repository.getName())));
     }
+
+    public Repository getRepository() {
+        driverGet("https://github.com/Test007000/Test");
+        return Repository.builder().name(driver.findElement(By.linkText("Test")).getText()).build();
+    }
+
+    public void openHomePage() {
+        driverGet("https://github.com");
+    }
 }

@@ -1,22 +1,31 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.fail;
 
 public class ApplicationManager {
 
-    protected WebDriver driver;
-    protected String baseUrl;
+    private WebDriver driver;
+    private String baseUrl;
     private StringBuffer verificationErrors = new StringBuffer();
 
     private LoginHelper loginHelper;
     private NavigationHelper navigationHelper;
     private FileHelper fileHelper;
 
+    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<>();
 
-    public ApplicationManager() {
+    static ApplicationManager getInstance() {
+        if (Objects.isNull(app.get())) {
+            app.set(new ApplicationManager());
+        }
+        return app.get();
+    }
+
+    private ApplicationManager() {
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\Almaz\\Desktop\\gecko\\geckodriver.exe");
         this.driver = new FirefoxDriver();
         this.baseUrl = "https://www.katalon.com/";

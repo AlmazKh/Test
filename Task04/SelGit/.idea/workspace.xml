@@ -81,15 +81,35 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="205" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="205" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/File.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="5" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="206">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,22 +118,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/User.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="515">
+              <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="92" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="92" />
+            <state relative-caret-position="119">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,19 +147,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="136">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,59 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NavigationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FileHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="55" selection-start-line="55" selection-end-line="56" />
-              <folding>
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Repository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="11" column="28" selection-start-line="11" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,12 +193,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/File.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FileHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MTest.java" />
       </list>
     </option>
   </component>
@@ -247,7 +215,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -287,6 +255,14 @@
               <item name="SelGit" type="b2602c69:ProjectViewProjectNode" />
               <item name="SelGit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelGit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelGit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,7 +283,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574497262184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575019552447" />
     <property name="last_opened_file_path" value="D:/Documents/флешка_21.09/тестирование/test1 (2)/test1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -371,50 +347,50 @@
       <workItem from="1574446967337" duration="9154000" />
       <workItem from="1574463669514" duration="2520000" />
       <workItem from="1574493573720" duration="2975000" />
-      <workItem from="1575011324515" duration="540000" />
+      <workItem from="1575011324515" duration="8214000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sel - 2019.11.23 at 02h 23m 12s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 13m 26s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 02h 27m 57s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 13m 57s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 02h 31m 56s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 14m 08s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 02h 35m 35s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 14m 46s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 02h 38m 57s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 16m 06s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 02h 43m 09s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 37m 03s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 10h 21m 28s.xml">
+    <history-entry file="Sel - 2019.11.29 at 11h 54m 36s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 10h 23m 25s.xml">
+    <history-entry file="Sel - 2019.11.29 at 12h 03m 37s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 10h 24m 12s.xml">
+    <history-entry file="Sel - 2019.11.29 at 12h 24m 21s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sel - 2019.11.23 at 10h 32m 42s.xml">
+    <history-entry file="Sel - 2019.11.29 at 12h 25m 22s.xml">
       <configuration name="Sel" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18155000" />
+    <option name="totallyTimeSpent" value="25829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,50 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="136">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -537,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="901">
           <caret line="55" selection-start-line="55" selection-end-line="56" />
           <folding>
             <element signature="e#1336#1337#0" expanded="true" />
@@ -546,10 +482,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NavigationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" column="92" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="92" />
+          <caret line="11" column="28" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -558,12 +511,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="515">
+          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,3 @@
-import org.junit.After;
 import org.junit.Before;
 
 public class TestBase {
@@ -7,11 +6,7 @@ public class TestBase {
 
     @Before
     public void setUp(){
-        applicationManager = new ApplicationManager();
-    }
-
-    @After
-    public void tearDown(){
-        applicationManager.tearDown();
+        applicationManager =  ApplicationManager.getInstance();
+        applicationManager.getNavigationHelper().openHomePage();
     }
 }
