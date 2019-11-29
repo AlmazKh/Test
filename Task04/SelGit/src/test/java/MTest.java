@@ -9,10 +9,10 @@ import static org.junit.Assert.assertNull;
 public class MTest extends TestBase {
 
     @Test
-    public void testAuth() throws Exception {
+    public void testAuth() {
         User user = User.builder()
-                .login("Test007000")
-                .password("Qwerty_007_AKHR")
+                .login("Test00700000")
+                .password("zsv89hho")
                 .build();
         applicationManager.getLoginHelper().login(user);
 
@@ -20,7 +20,7 @@ public class MTest extends TestBase {
     }
 
     @Test
-    public void testGotToRepository() {
+    public void testGoToRepository() {
         Repository repository = Repository.builder().name("Test").build();
         applicationManager.getNavigationHelper().goToRepository(repository);
 
@@ -32,7 +32,15 @@ public class MTest extends TestBase {
         File file = File.builder().name("TestName6").build();
         applicationManager.getFileHelper().createFile(file);
 
-        assertEquals(file.getName(), applicationManager.getFileHelper().getFile().getName());
+        assertEquals(file.getName(), applicationManager.getFileHelper().getFile(file).getName());
+    }
+
+    @Test
+    public void testDeleteFile() {
+        File file = File.builder().name("TestName5").build();
+        applicationManager.getFileHelper().deleteFile(file);
+
+        assertNull(applicationManager.getFileHelper().getFile(file));
     }
 
     @Test

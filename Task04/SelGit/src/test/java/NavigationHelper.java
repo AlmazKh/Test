@@ -15,7 +15,7 @@ public class NavigationHelper extends HelperBase{
     }
 
     public Repository getRepository() {
-        driverGet("https://github.com/Test007000/Test");
+        driverGet("https://github.com/Test00700000/Test");
         return Repository.builder().name(driver.findElement(By.linkText("Test")).getText()).build();
     }
 
