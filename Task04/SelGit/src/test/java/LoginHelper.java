@@ -8,7 +8,7 @@ public class LoginHelper extends HelperBase{
         super(applicationManager);
     }
 
-    public void login(User user) {
+    public void login(User user) throws InterruptedException {
         driverGet("https://github.com/");
         clickElement(findElement(By.xpath("/html/body/div[1]/header/div/div[2]/div[2]/a[1]")));
         clearElement(findElement(By.id("login_field")));
@@ -17,6 +17,7 @@ public class LoginHelper extends HelperBase{
         clearElement(findElement(By.id("password")));
         sendKeys(findElement(By.id("password")), user.getPassword());
         clickElement(findElement(By.name("commit")));
+//        Thread.sleep(60000);
     }
 
     public void logout() {

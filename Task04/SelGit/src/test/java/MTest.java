@@ -14,7 +14,11 @@ public class MTest extends TestBase {
                 .login("Test00700000")
                 .password("zsv89hho")
                 .build();
-        applicationManager.getLoginHelper().login(user);
+        try {
+            applicationManager.getLoginHelper().login(user);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         assertEquals(user.getLogin(), applicationManager.getLoginHelper().getUser().getLogin());
     }
@@ -29,7 +33,7 @@ public class MTest extends TestBase {
 
     @Test
     public void testCreateFile() {
-        File file = File.builder().name("TestName6").build();
+        File file = File.builder().name("TestName8").build();
         applicationManager.getFileHelper().createFile(file);
 
         assertEquals(file.getName(), applicationManager.getFileHelper().getFile(file).getName());
@@ -37,7 +41,7 @@ public class MTest extends TestBase {
 
     @Test
     public void testDeleteFile() {
-        File file = File.builder().name("TestName5").build();
+        File file = File.builder().name("TestName7").build();
         applicationManager.getFileHelper().deleteFile(file);
 
         assertNull(applicationManager.getFileHelper().getFile(file));
