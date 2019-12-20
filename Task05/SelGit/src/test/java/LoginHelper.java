@@ -17,7 +17,7 @@ public class LoginHelper extends HelperBase{
         clearElement(findElement(By.id("password")));
         sendKeys(findElement(By.id("password")), user.getPassword());
         clickElement(findElement(By.name("commit")));
-//        Thread.sleep(60000);
+        Thread.sleep(60000);
     }
 
     public void logout() {

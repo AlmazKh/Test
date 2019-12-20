@@ -7,7 +7,6 @@ import ru.itis.TxtFile;
 import ru.itis.User;
 
 import java.io.File;
-import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -15,11 +14,15 @@ import static org.junit.Assert.assertNull;
 public class MTest extends TestBase {
 
     @Test
+    @SneakyThrows
     public void testAuth() {
-        User user = User.builder()
-                .login("Test00700000")
-                .password("zsv89hho")
-                .build();
+        XmlMapper xmlMapper = new XmlMapper();
+        User user = xmlMapper.readValue(new File("C:\\Users\\Almaz\\Desktop\\Test\\Task05\\SelGit\\testLoginData.xml"), User.class);
+
+//        User user = User.builder()
+//                .login("Test00700000")
+//                .password("zsv89hho")
+//                .build();
         try {
             applicationManager.getLoginHelper().login(user);
         } catch (InterruptedException e) {
