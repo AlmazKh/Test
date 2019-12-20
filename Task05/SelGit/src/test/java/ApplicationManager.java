@@ -35,7 +35,7 @@ public class ApplicationManager {
         navigationHelper = new NavigationHelper(this);
     }
 
-    public void tearDown() {
+    public void quit() {
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {

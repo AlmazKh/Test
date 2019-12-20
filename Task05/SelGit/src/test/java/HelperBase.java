@@ -45,10 +45,6 @@ public class HelperBase {
         }
     }
 
-
-
-
-
     public WebElement findElement(By linkText){
         return driver.findElement(linkText);
     }

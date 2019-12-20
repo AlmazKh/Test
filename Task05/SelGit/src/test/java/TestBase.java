@@ -1,5 +1,7 @@
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
+import org.junit.jupiter.api.AfterAll;
 
 public class TestBase {
 
@@ -8,6 +10,11 @@ public class TestBase {
     @Before
     public void setUp(){
         applicationManager =  ApplicationManager.getInstance();
-        applicationManager.getNavigationHelper().openHomePage();
+//        applicationManager.getNavigationHelper().openHomePage();
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        ApplicationManager.getInstance().quit();
     }
 }

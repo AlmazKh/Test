@@ -1,7 +1,13 @@
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import lombok.SneakyThrows;
+import org.junit.Assert;
 import org.junit.Test;
-import ru.itis.File;
 import ru.itis.Repository;
+import ru.itis.TxtFile;
 import ru.itis.User;
+
+import java.io.File;
+import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -28,23 +34,29 @@ public class MTest extends TestBase {
         Repository repository = Repository.builder().name("Test").build();
         applicationManager.getNavigationHelper().goToRepository(repository);
 
-        assertEquals(repository.getName(), applicationManager.getNavigationHelper().getRepository().getName());
+        Assert.assertEquals(repository.getName(), applicationManager.getNavigationHelper().getRepository().getName());
     }
 
     @Test
+    @SneakyThrows
     public void testCreateFile() {
-        File file = File.builder().name("TestName8").build();
-        applicationManager.getFileHelper().createFile(file);
+        XmlMapper xmlMapper = new XmlMapper();
+        TxtFile txtFile = xmlMapper.readValue(new File("C:\\Users\\Almaz\\Desktop\\Test\\Task05\\SelGit\\testFileData.xml"), TxtFile.class);
+//        TxtFile txtFile = TxtFile.builder().name("TestName10").build();
+        applicationManager.getFileHelper().createFile(txtFile);
 
-        assertEquals(file.getName(), applicationManager.getFileHelper().getFile(file).getName());
+        assertEquals(txtFile.getName(), applicationManager.getFileHelper().getFile(txtFile).getName());
     }
 
     @Test
+    @SneakyThrows
     public void testDeleteFile() {
-        File file = File.builder().name("TestName7").build();
-        applicationManager.getFileHelper().deleteFile(file);
+        XmlMapper xmlMapper = new XmlMapper();
+        TxtFile txtFile = xmlMapper.readValue(new File("C:\\Users\\Almaz\\Desktop\\Test\\Task05\\SelGit\\testFileData.xml"), TxtFile.class);
+//        TxtFile txtFile = TxtFile.builder().name("TestName9").build();
+        applicationManager.getFileHelper().deleteFile(txtFile);
 
-        assertNull(applicationManager.getFileHelper().getFile(file));
+        assertNull(applicationManager.getFileHelper().getFile(txtFile));
     }
 
     @Test

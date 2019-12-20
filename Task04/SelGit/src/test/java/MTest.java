@@ -33,7 +33,7 @@ public class MTest extends TestBase {
 
     @Test
     public void testCreateFile() {
-        File file = File.builder().name("TestName8").build();
+        File file = File.builder().name("TestName9").build();
         applicationManager.getFileHelper().createFile(file);
 
         assertEquals(file.getName(), applicationManager.getFileHelper().getFile(file).getName());
@@ -41,7 +41,7 @@ public class MTest extends TestBase {
 
     @Test
     public void testDeleteFile() {
-        File file = File.builder().name("TestName7").build();
+        File file = File.builder().name("TestName8").build();
         applicationManager.getFileHelper().deleteFile(file);
 
         assertNull(applicationManager.getFileHelper().getFile(file));
