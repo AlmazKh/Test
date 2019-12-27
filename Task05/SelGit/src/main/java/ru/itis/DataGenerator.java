@@ -21,7 +21,7 @@ public class DataGenerator {
                 .name(RandomString.make(length))
                 .build();
 
-        xmlMapper.writeValue(new File("testLoginData.xml"), user);
+//        xmlMapper.writeValue(new File("testLoginData.xml"), user);
         xmlMapper.writeValue(new File("testFileData.xml"), txtFile);
     }
 }
