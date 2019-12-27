@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+    <baseUrl>https://www.katalon.com/</baseUrl>
+    <login>Test00700000</login>
+    <password>zsv89hho</password>
+    <InvalidLogin>qaz</InvalidLogin>
+    <InvalidPassword>qwerty</InvalidPassword>
+</Settings>
